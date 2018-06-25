@@ -62,7 +62,6 @@
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -111,9 +110,9 @@
             <div class="card-body">
               <h5 class="card-title">Birdy Hop</h5>
               <p class="card-text">Hop the birdy from platform to platform to get the highest amount of points and be rewarded with a medal.</p>
-              <p class="card-text">Made with Unity</p>
-              <a href="https://play.google.com/store/apps/details?id=com.MartinTsang.BirdyHop" class="btn btn-primary">Android</a>
-              <a href="https://itunes.apple.com/us/app/birdy-hop/id1384642685?ls=1&mt=8" class="btn btn-primary">iOS</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#birdyhop">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -141,8 +140,9 @@
             <div class="card-body">
               <h5 class="card-title">Battleship Buddies</h5>
               <p class="card-text">Battleship Buddies is where the classic board game comes to life. Set up the fleet and prepare for battle.</p>
-              <p class="card-text">Made with Unity</p>
-              <a href="https://play.google.com/store/apps/details?id=ca.inkpadstudios.battleshipbuddies2" class="btn btn-primary">Android</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#battleship">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -170,8 +170,9 @@
             <div class="card-body">
               <h5 class="card-title">Knots</h5>
               <p class="card-text">Save the ships from crashing by shining a light over them. Save all ships at once using your powered up lighthouse.</p>
-              <p class="card-text">Made with SpriteKit</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#knots">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -342,9 +343,11 @@
           <div class="card">
             <img class="card-img-top" src="images/Birdy/android_4.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Birdy Hop</h5>
+              <p class="card-text">Hop the birdy from platform to platform to get the highest amount of points and be rewarded with a medal.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#birdyhop">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -352,9 +355,11 @@
           <div class="card">
             <img class="card-img-top" src="images/Battleship/android_1.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Battleship Buddies</h5>
+              <p class="card-text">Battleship Buddies is where the classic board game comes to life. Set up the fleet and prepare for battle.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#battleship">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -362,9 +367,11 @@
           <div class="card">
             <img class="card-img-top" src="images/Knots/iOS_0.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Knots</h5>
+              <p class="card-text">Save the ships from crashing by shining a light over them. Save all ships at once using your powered up lighthouse.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#knots">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -373,17 +380,43 @@
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="images/Platformation/PC_0.jpg" alt="Card image cap">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/Platformation/PC_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/Platformation/PC_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/Platformation/PC_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Platformation</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">Made at Global Game Jam 2018, a local couch co-op 2D platformer where one player has to jump to the red flag, while the rest of the players try to shoot jumper down.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#platformation">
+                Details
+              </button>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="images/MiniGolf/PC_1.jpg" alt="Card image cap">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/MiniGolf/PC_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/MiniGolf/PC_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/MiniGolf/PC_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Mini Golf Generator</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -471,6 +504,141 @@
   <br>
   <br>
   <!------------>
+
+  <!------Model--->
+  <!-- Modal / Birdyhop -->
+  <div class="modal fade" id="birdyhop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Birdy Hop - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/xSH8we--cRQ" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>My mentor told me that it's easy to start creating something, but it's hard to complete it, upon hearing that I want to finally start, complete and ship out a game myself; this is Birdy Hop.</p>
+                <p>Inspired by Flappy Bird, Birdy Hop is a simple ketchapp game where you control a bird hopping from platform to platform gaining as many points as possible.</p>
+                <p>One of the more challenging experience in developing Birdy Hop was the game balancing, is it too hard? too easy? I wanted an experience where newcomers would get around 10 points, whereas skilled player could get 50+ points. After a few iterations with a different testers on Android and iOS, I believe I chose the correct settings that fullfilled my goals.</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.MartinTsang.BirdyHop" class="btn btn-primary">Android</a>
+            <a target="_blank" href="https://itunes.apple.com/us/app/birdy-hop/id1384642685?ls=1&mt=8" class="btn btn-primary">iOS</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+
+  <!-- Modal / Battleship -->
+  <div class="modal fade" id="battleship" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Battleship Buddies - Unity - 2017</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/kv1naph668w" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I worked in a team of 4 with InkPad Studios to develop Battleship Buddies with the Unity Engine as one of the software engineers.<p>
+                <p>I learnt quite a lot making this game as I was in charge of developing the Main Menu UI, AI component and integrating Firebase analytics and authentication.</p>
+                <p>It was an enjoyable experience to be able to create a game from start to finish in a team and I was able to learn quite a lot<p>
+              </div>
+            </div>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=ca.inkpadstudios.battleshipbuddies2" class="btn btn-primary">Android</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+
+  <!-- Modal / Knots -->
+  <div class="modal fade" id="knots" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Knots - SpriteKit - 2017</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/j0bIACOajcg" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>Knots - A ketchapp game developed for the iOS platform where the player controls the lighthouse to save as many ships as possible from crashing into the middle</p>
+                <p>While learning to develop iOS applications in Swift and Objective C, I stumbled upon the Apple game development kit called SpriteKit and decided to make a game within a week.</p>
+                <p>There were a few features that SpriteKit had compared to Unity that made development a lot faster and smoother such as their animation api. An example: If I wanted a gameobject to go from one point to another on Unity I would probably put coordinates and if statements inside the <code> Update(){..}</code> function. However in SpriteKit, it's just the simple <code>class func move(to location: CGPoint,
+       duration: TimeInterval) -> SKAction</code>.</p>
+                <p>At the end of the day, each game engines have their own pros and cons.</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://itunes.apple.com/us/app/lighthouse-knots/id1277151577?ls=1&mt=8" class="btn btn-primary">iOS</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+
+  <!-- Modal / Knots -->
+  <div class="modal fade" id="platformation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Platformation - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/J7aXfaqA6xg" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+
+              </div>
+            </div>
+            <a target="_blank" href="https://itunes.apple.com/us/app/lighthouse-knots/id1277151577?ls=1&mt=8" class="btn btn-primary">iOS</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+  <!-------------->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
