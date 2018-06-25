@@ -485,11 +485,25 @@
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="images/BishiBashi/PC_0.jpg" alt="Card image cap">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/BishiBashi/PC_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/BishiBashi/PC_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/BishiBashi/PC_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Platformation</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Bishi Bashi</h5>
+              <p class="card-text">A recreation of a popular japanese local multiplayer Playstion game made by Konami. Players play a pool of wacky and fun mini games together trying to score the most points similiar to Mario Party.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bishibashi">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -770,6 +784,40 @@
                 <p>If the technology was a lot more smoother, I may have kept working on this game since I had some art made and the music choice chosen</p>
                 <a target="_blank" href="builds/SpeedTouch.apk" class="btn btn-primary">Android</a>
                 <a target="_blank" href="https://github.com/m4rtint/SpeedTouch" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+
+  <!-- Modal / Bishi Bahi -->
+  <div class="modal fade" id="bishibashi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bishi Bashi - Unity - 2016</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/5AOrcLrQXi0" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I wanted to pick up and start mastering Unity at this point in my life.</p>
+                <p>Where was a good place to start? My mentor had the perfect answer to this, remake a game that has already been made, this way you don't have to use the time to think of a game and design/balance it, instead use it to just create this game and learn the Unity system.</p>
+                <p>The amount I learnt from creating this game was an eye opener. The tools that animation contained, how GameObjects connect and communicate..etc</p>
+                <p>The two games I recreated 
+                <a target="_blank" href="https://github.com/m4rtint/bishibashi" class="btn btn-primary">Github</a>
               </div>
             </div>
           </div>
