@@ -1,537 +1,798 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Martin Pak Hei Tsang</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollzer.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+<!doctype html>
+<html lang="en">
 
-		<!-- Header -->
-			<div id="header" class="skel-layers-fixed">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <title>Martin Tsang</title>
+</head>
+<body>
+  <!-----Menu------>
+  <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Martin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#threemain">Main</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav form-inline my-2 my-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/martinphtsang/" target="_blank">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/m4rtint" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--------------->
 
-				<div class="top">
+  <!-----Carousel------>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/Carousel/photo_1.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/Carousel/photo_0.png" alt="Second slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--------------->
 
-					<!-- Logo -->
-						<div id="logo">
-							<!----<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>--->
-							<h1 id="title">Martin Pak Hei Tsang</h1>
-							<p>Software Developer</p>
-						</div>
+  <!-----3 Main Projects---->
+  <div class="jumbotron jumbotron-fluid">
+    <div id="threemain" class="container">
+      <h1 class="display-4 text-center">Main Projects</h1>
+      <hr width="50%">
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 card-img-top" src="images/Birdy/android_4.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Birdy/android_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Birdy/android_2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Birdy/android_3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Birdy Hop</h5>
+              <p class="card-text">Hop the birdy from platform to platform to get the highest amount of points and be rewarded with a medal.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#birdyhop">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 card-img-top" src="images/Battleship/android_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Battleship/android_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Battleship/android_2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Battleship/android_3.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Battleship/android_4.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Battleship Buddies</h5>
+              <p class="card-text">Battleship Buddies is where the classic board game comes to life. Set up the fleet and prepare for battle.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#battleship">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 card-img-top" src="images/Knots/iOS_0.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Knots/iOS_1.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Knots/iOS_2.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Knots/iOS_3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 card-img-top" src="images/Knots/iOS_4.png" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Knots</h5>
+              <p class="card-text">Save the ships from crashing by shining a light over them. Save all ships at once using your powered up lighthouse.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#knots">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--------------->
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+  <!-----Education---->
+  <div id="education" class="container">
+    <h1 class="display-4 text-center">Education</h1>
+    <hr width="50%">
+    <br>
+    <div class="text-center">
+      <img src="images/ubc.png" class="img-fluid" alt="Responsive image" style="width:20%">
+      <br>
+      <br>
+      <h1>University of British Columbia</h1>
+      <h5>Bachelor Of Science in Computer Science</h5>
+      <h5>December 2016 Graduate</h5>
+      </blockquote>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--------------->
 
-								Prologue's nav expects links in one of two formats:
+  <!-----Skills---->
+  <div class="jumbotron jumbotron-fluid">
+    <div id="skills" class="container">
+      <h1 class="display-4 text-center">Skills</h1>
+      <hr width="50%">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card text-white bg-secondary mb-3">
+            <div class="card-header">Game Development</div>
+            <div class="card-body">
+              <p><b>C#</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+              <br>
+              <p><b>Unity</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+              <br>
+              <p><b>Visual Studio</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card text-white bg-secondary mb-3">
+            <div class="card-header">Mobile Development</div>
+            <div class="card-body">
+              <p><b>Objective C</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+              <br>
+              <p><b>Swift</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+              <br>
+              <p><b>Xcode</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 60%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card text-white bg-secondary mb-3">
+            <div class="card-header">Other</div>
+            <div class="card-body">
+              <p><b>Git</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+              <br>
+              <p><b>Photoshop</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+              </div>
+              <br>
+              <p><b>Firebase</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+              <br>
+              <p><b>HTML/CSS</b></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--------------->
 
-								1. Hash link (scrolls to a different section within the page)
+  <!-----Work------>
+  <div id="work" class="container-fluid">
+    <h1 class="display-4 text-center">Work</h1>
+    <hr width="50%">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/news360.png" class="rounded d-block mx-auto"></img>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Junior Mobile Developer - News360</h5>
+            <p class="card-subtitle mb-2 text-muted">Nov 2017 - Present</p>
+            <p class="card-subtitle mb-2 text-muted">Vancouver, Canada</p>
+            <p class="card-text">An iOS developer on the front-end team to implement new features onto multiple news applications utilizing Xcode</p>
+            <p class="card-text">&bull; Refactored model layer to integrate with new control layer that utilizes new API endpoints</p>
+            <p class="card-text">&bull; Swiftly implemented new features to application following Test-driven development process</p>
+            <p class="card-text">&bull; Successfully completed weekly bug fixes both independently and weekly pair programming(XP) meetings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/inkpadstudios.gif" class="rounded d-block mx-auto img-fluid" alt="Responsive image"></img>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Part time Game Developer - InkPad Studios</h5>
+            <p class="card-subtitle mb-2 text-muted">May 2017 - May 2018</p>
+            <p class="card-subtitle mb-2 text-muted">Vancouver, Canada</p>
+            <p class="card-text">Worked in a team of four to create a Unity developed mobile game called Battleship Buddies published to the Google Play Store</p>
+            <p class="card-text">&bull; Developed the AI opponent for users to play against with varying difficulty using the Minimax algorithm</p>
+            <p class="card-text">&bull; Implemented animation, particle effects and user interface for a more immersive and user friendly experience</p>
+            <p class="card-text">&bull; Integrated Google Firebase to utilize its analytics, database and authentication features for detailed understand of player statistics</p>
+            <p class="card-text"><a target="_blank" href="https://play.google.com/store/apps/details?id=ca.inkpadstudios.battleshipbuddies2">Google Play Store</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+  </div>
+  <br>
+  <br>
+  <!--------------->
 
-								2. Standard link (sends the user to another page/site)
+  <!----Projects/Jams-->
+  <div class="jumbotron jumbotron-fluid">
+    <div id="projects" class="container-fluid">
+      <h1 class="display-4 text-center">Projects</h1>
+      <hr width="50%">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="images/Birdy/android_4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Birdy Hop</h5>
+              <p class="card-text">Hop the birdy from platform to platform to get the highest amount of points and be rewarded with a medal.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#birdyhop">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="images/Battleship/android_1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Battleship Buddies</h5>
+              <p class="card-text">Battleship Buddies is where the classic board game comes to life. Set up the fleet and prepare for battle.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#battleship">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="images/Knots/iOS_0.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Knots</h5>
+              <p class="card-text">Save the ships from crashing by shining a light over them. Save all ships at once using your powered up lighthouse.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#knots">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/Platformation/PC_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/Platformation/PC_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/Platformation/PC_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Platformation</h5>
+              <p class="card-text">Made at Global Game Jam 2018, a local couch co-op 2D platformer where one player has to jump to the red flag, while the rest of the players try to shoot jumper down.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#platformation">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/MiniGolf/PC_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/MiniGolf/PC_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/MiniGolf/PC_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mini Golf Generator</h5>
+              <p class="card-text">A mini golf path generator that randomly generates a path for you. You are able to set the percentages of staight paths, turns and ramps within the Unity inspector.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#minigolf">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/StayAwake/Android_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/StayAwake/Android_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/StayAwake/Android_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Stay Awake</h5>
+              <p class="card-text">A mobile horror game inspired by "Five Nights at Freddys" where you try to survive the night using various tools to prevent the monsters from attacking you.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stayawake">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/SpeedTouch/Android_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/SpeedTouch/Android_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/SpeedTouch/Android_2.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/SpeedTouch/Android_5.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Speed Touch</h5>
+              <p class="card-text">Inspired by Super Hexagon, Speed Touch is a mobile twitch game where you lead your finger through the quickly moving maze trying to survive for as long as possible.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#speedtouch">
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="images/BishiBashi/PC_0.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Platformation</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="images/GameJam/PC_0.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mini Golf Generator</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--------------->
 
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+  <!---About---->
+  <div id="about" class="container-fluid">
+    <h1 class="display-4 text-center">About</h1>
+    <hr width="50%">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/profile.jpg" class="rounded d-block mx-auto img-fluid" alt="Responsive image"></img>
+      </div>
+      <div class="col-md">
+        <p class="text-left">Hi there</p>
+        <p class="text-left">My name is Martin Tsang and I'm currently a junior mobile developer at News360. I have been programming since my first year at UBC and have graduated with a major in Computer Science since December 2016. My dream is to enter the gaming industry
+          to some day be part of an amazing team to build an FPS game.</p>
+        <br>
+        <p class="text-left">My interests include gaming, board games, PC Building and developing my own games.</p>
+        </p>
+        <br>
+        <blockquote class="blockquote">
+          <p><strong>Contact</strong></p>
+          <p>+1-778-990-0852</p>
+          <p>m4rtin.t@gmail.com</p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!------------>
 
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-arrow-circle-right">Beginning</span></a></li>
-								<li><a href="#education" id="education-link" class="skel-layers-ignoreHref"><span class="icon fa-crosshairs">Portfolio</span></a></li>
-								<li><a href="#work" id="work-link" class="skel-layers-ignoreHref"><span class="icon fa-suitcase">Work</span></a></li>
-								<li><a href="#project" id="project-link" class="skel-layers-ignoreHref"><span class="icon fa-cube">Projects</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-gamepad">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+  <!------Model--->
+  <!-- Modal / Birdyhop -->
+  <div class="modal fade" id="birdyhop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Birdy Hop - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/xSH8we--cRQ" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>My mentor told me that it's easy to start creating something, but it's hard to complete it, upon hearing that I want to finally start, complete and ship out a game myself; this is Birdy Hop.</p>
+                <p>Inspired by Flappy Bird, Birdy Hop is a simple ketchapp game where you control a bird hopping from platform to platform gaining as many points as possible.</p>
+                <p>One of the more challenging experience in developing Birdy Hop was the game balancing, is it too hard? too easy? I wanted an experience where newcomers would get around 10 points, whereas skilled player could get 50+ points. After a few iterations with a different testers on Android and iOS, I believe I chose the correct settings that fullfilled my goals.</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.MartinTsang.BirdyHop" class="btn btn-primary">Android</a>
+            <a target="_blank" href="https://itunes.apple.com/us/app/birdy-hop/id1384642685?ls=1&mt=8" class="btn btn-primary">iOS</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
 
-				</div>
+  <!-- Modal / Battleship -->
+  <div class="modal fade" id="battleship" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Battleship Buddies - Unity - 2017</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/kv1naph668w" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I worked in a team of 4 with InkPad Studios to develop Battleship Buddies with the Unity Engine as one of the software engineers.<p>
+                <p>I learnt quite a lot making this game as I was in charge of developing the Main Menu UI, AI component and integrating Firebase analytics and authentication.</p>
+                <p>It was an enjoyable experience to be able to create a game from start to finish in a team and I was able to learn quite a lot<p>
+              </div>
+            </div>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=ca.inkpadstudios.battleshipbuddies2" class="btn btn-primary">Android</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
 
-				<div class="bottom">
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.twitter.com/M4rtyy_t"  class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.github.com/m4rtint" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/martinphtsang" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-						</ul>
-				</div>
-			</div>
+  <!-- Modal / Knots -->
+  <div class="modal fade" id="knots" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Knots - SpriteKit - 2017</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/j0bIACOajcg" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>Knots - A ketchapp game developed for the iOS platform where the player controls the lighthouse to save as many ships as possible from crashing into the middle</p>
+                <p>While learning to develop iOS applications in Swift and Objective C, I stumbled upon the Apple game development kit called SpriteKit and decided to make a game within a week.</p>
+                <p>There were a few features that SpriteKit had compared to Unity that made development a lot faster and smoother such as their animation api. An example: If I wanted a gameobject to go from one point to another on Unity I would probably put coordinates and if statements inside the <code> Update(){..}</code> function. However in SpriteKit, it's just the simple <code>class func move(to location: CGPoint,
+       duration: TimeInterval) -> SKAction</code>.</p>
+                <p>At the end of the day, each game engines have their own pros and cons.</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://itunes.apple.com/us/app/lighthouse-knots/id1277151577?ls=1&mt=8" class="btn btn-primary">iOS</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
 
-		<!-- Main -->
-			<div id="main">
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-							<footer>
-								<a href="#education" class="button scrolly"><span class="icon fa-chevron-down"> Start Here</span></a>
-							</footer>
-							<br><br><br><br><br>
-						</div>
-					</section>
-				<!-- Education -->
-					<section id="education" class="two">
-						<div class="container">
-							<header>
-								<h1> Website Changes Incoming<h1>
-							</header>
-							<hr>
-							<h3><u>Education</u></h3>
-							<div class="row">
-								<div class="12u">
-									<article class="item">
-										<br>
-										<img class="image fit" style="width:20%;margin-left:40%" src="http://assets.brand.ubc.ca/signatures/2015/ubc_brand_assets_blue/4_logo/rgb/s4b282c2015.png" alt="" />
-										<br>
-										<p class="text-center"><b>University of British Columbia</b>
-										<br>
-										Bachelor Of Science in Computer Science<br>
-										December 2016 Graduate</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Technical Skills -->
-					<section id="skill" style='background-color:#FFFFFF' >
-						<div class="container">
-							<h3><u>Technical Skills</u></h3>
-							<br>
-							<div class="row">
-								<div class="4u">
-									<article class="item">
-										<h4><b>Language</b></h4>
-										<hr>
-										<p>Java<br>C#<br>Swift<br>Objective-C<br>Ruby<br>PHP<br></p>
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<h4><b>Web</b></h4>
-										<hr>
-										<p>Amazon Web Services<br>HTML / CSS<br>Laravel<br>Rails</p>
-									</article>
-								</div>
-								<div class="4u">
-									<article class="item">
-										<h4><b>Software</b></h4>
-										<hr>
-										<p>Unity<br>XCode<br>Visual Studios<br>Linux<br>Git<br></p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Work Experience -->
-					<section id="work"  style='background-color:#FFFFFF'>
-						<div class="container">
-							<h3><u>Work Experience</u></h3>
-							<div class="row">
-								<div class="8u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									<p><strong> Software Developer </strong> at InkPad Studios</br>
-									<b>May 2017 - Current</b></p>
+  <!-- Modal / Platformation -->
+  <div class="modal fade" id="platformation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Platformation - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/J7aXfaqA6xg" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>This was my 3rd global game jam and it was an amzing experience filled with new friends and new knowledge.</p>
+                <p>I decided to go with developers whom I have never worked with and don't know very well, so I ended up teaming up with few of the executives of AGDA (AMS Game Development Association)</p>
+                <p>Turned out they were co-ops working at East Side Games and I learnt quite a lot from them.</p>
+                <p>We were able to complete the MVP of the game which is a local multiplayer couch co-op platfomer inspired by Ultimate Chicken Horse</p>
+                <p>One player would control the jumper who tries to jump to the red flag, and the rest of the players would have a chance to shoot at the jumper</p>
+                <p>If the jumper gets shot, the body turns into an obstacle that stop or helps the jumper along the way. Everyone then takes turns being the jumper</p>
+                <p>We were able to present it at the game jam and I couldn't be more proud with my team.</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://globalgamejam.org/2018/games/platformation" class="btn btn-primary">GameJam</a>
+            <a target="_blank" href="https://github.com/m4rtint/platformation" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
 
-									 &#8226; Developing mobile games utilizing the Unity game engine and C# scripts<br>
-									 &#8226; Designed and implemented AI opponents with varying difficulty for users to play against using the Minimax algorithm<br>
-                                     <br>
-									 Website : <a href="http://www.inkpadstudios.ca/" target="_blank">InkPad Studios</a>
-									 </div>
-									 </p>
-									</article>
-								</div>
-								<div class="4u">
-								<br>
-									<article class="item">
-									<img class="image fit" src="images/inkpadstudios.gif" alt="" /></a>
-									</article>
-								</div>
-							</div>
+  <!-- Modal / MiniGolf -->
+  <div class="modal fade" id="minigolf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mini Golf Generator - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ee1O3gWRsQM" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I was looking through the assets that http://kenney.nl has released for free use and found a package of mini golf assets, and decided to start up a short little project.</p>
+                <p>I've always wanted to try and create a randomizer that creates paths and this is what I've come up with so far.</p>
+                <p>The current issue is the lack of an end goal to this game, as there are hundreds of mini golf games out there and I don't want to release a generic mini golf game</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://github.com/m4rtint/MiniGolfPathGenerator" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
 
+  <!-- Modal / StayAwake -->
+  <div class="modal fade" id="stayawake" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Stay Awake - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/E3Uu3fbve2U" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I joined AGDA (AMS Game Development Association) September 2017 looking to meet other potential developers to make games with.</p>
+                <p>I talked my way into a team of 8 and slowly but surely became the software and project lead of this game. Seeing how everyone has their own work, assignments and other priorities, I was not expecting all 8 members to still be us by the end of the year, let alone end of the term</p>
+                <p>So I divided up the work in a way that is modular and can easily be passed onto someone else which means lots of decoupled scripts and frameworks.</p>
+                <p>At the end of year showcase, we succesfully presented the MVP of our project to a panel of game industry experts and was voted 3rd best game out of 10 games completed at AGDA.</p>
+                <a target="_blank" href="builds/VRHospital.apk" class="btn btn-primary">Android</a>
+                <a target="_blank" href="https://github.com/m4rtint/VR-hospital-2017" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
 
+  <!-- Modal / SpeedTouch -->
+  <div class="modal fade" id="speedtouch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Speed Touch - Unity - 2017</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/VHKb1HOiA5g" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I had an idea and a vision for a game, where you guide your finger through a fast moving maze trying to survive as long as possible to unlock the next level which gets even faster.</p>
+                <p>I wanted the same addictive game experience I had playing "Super Hexagon", with the minimalistic art and techno beat in the background.</p>
+                <p>Unforunately this proof of concept quickly fell apart when I realized that the Android touch had a significant lag time when detecting it's current position when dragging your finger accross the screen of at least 0.5 seconds. It made for quite a lot of unfair and unintuitive losses for the player.</p>
+                <p>If the technology was a lot more smoother, I may have kept working on this game since I had some art made and the music choice chosen</p>
+                <a target="_blank" href="builds/SpeedTouch.apk" class="btn btn-primary">Android</a>
+                <a target="_blank" href="https://github.com/m4rtint/SpeedTouch" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+  <!-------------->
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<footer>
+  <nav class="navbar sticky-bottom navbar-dark bg-dark">
+    <span class="navbar-text">Developed by Martin Pak Hei Tsang with Bootstrap</span>
+  </nav>
+</footer>
 
-                            <div class="row">
-								<div class="4u">
-								<br>
-									<article class="item">
-									<img class="image fit" src="images/photonic.png" alt="" /></a>
-									</article>
-								</div>
-								<div class="8u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									<p><strong> Software Developer </strong> at Photonics Manufacturing</br>
-									<b>September 2016 - February 2017</b></p>
-
-									 &#8226; Ported internal company software from the Visual Basic 6 to .NET creating a more robust programming environment<br>
-									 &#8226; Restructured legacy program to follow an object-oriented paradigm allowing developers to efficiently add or removing features without a single point of failure<br>
-                                     <br>
-									 Website : <a href="http://www.photonicshk.com/" target="_blank">Photonic Manufacturing Service Ltd</a>
-									 </div>
-									 </p>
-									</article>
-								</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="8u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									<p><strong> Full Stack Developer </strong> at R3M Software (Startup)</br>
-									<b>May - September 2015</b></p>
-									 &#8226; Utilized PayPal SDK to create secure front and backend payment system<br>
-									 &#8226; Designed and implemented backend API using the Laravel framework allowing client to communicate with server<br>
-									 &#8226; Integrated Amazon S3 SDK with iOS application to create seamless video upload and download services<br><br>
-									 <br>
-									 </div>
-									 </p>
-									</article>
-								</div>
-
-								<div class="4u">
-								<br>
-									<article class="item">
-
-									<img class="image fit" src="images/feedback.png" alt="" /></a>
-									</article>
-								</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="4u">
-								<br>
-									<article class="item">
-									<img class="image fit" src="images/bcgsc.png" alt="" /></a>
-									</article>
-								</div>
-								<div class="8u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									<p><strong> Client Support Technician </strong> at BC Genome Sciences Center</br>
-									<b>January - May 2015</b></p>
-
-									 &#8226; Developed internal RSS Feed builder using PHP to broadcast company wide technical issues<br>
-									 &#8226; Effectively utilized JIRA issue tracking function to manage IT concerns<br>
-									 &#8226; Successfully diagnosed, troubleshoot and resolved client issues<br><br>
-									 Website : <a href="http://www.bcgsc.ca/" target="_blank">BCGSC</a>
-									 </div>
-									 </p>
-									</article>
-								</div>
-							</div>
-							<br>
-						</div>
-					</section>
-					<!-- Technical Projects -->
-					<section id="project" style="background-color:#F5FAFA">
-						<div class="container">
-							<h3><u>Technical Projects</u></h3>
-							<br>
-							<h4 id='knots' style='text-align:center'><b> Knots - iOS Game </b></h4>
-							<div class="row">
-								<div class="5u">
-									<article class="item">
-										<div align="left" style="margin-top:1cm">
-										<a href="https://itunes.apple.com/us/app/lighthouse-knots/id1277151577?ls=1&mt=8" target="_blank" class="image fit"><img src="images/knots.gif" alt="" /></a>
-										</div>
-									</article>
-								</div>
-								<div class="7u">
-									<article class="item">
-										<div align="left" style="margin:1cm">
-										 &#8226; Worked in a team of two to create tower defense inspired 2D top down iOS game using Sprite Kit<br>
-										 &#8226; Designed spawn mechanics to create fun and balanced gameplay for a better user experience <br>
-										 &#8226; Written animation and logic using a combination of Swift and Objective-C<br><br>
-										 <b>Technologies: XCode, Swift, Objective-C </b><br>
-										 Demo : <a href="https://youtu.be/j0bIACOajcg" target="_blank" style="color:#2668AF">YouTube</a>
-										 <br>
-										 App Store: <a href="https://itunes.apple.com/us/app/lighthouse-knots/id1277151577?ls=1&mt=8" target="_blank" style="color:#2668AF">iOS Knots</a>
-										 <br><br>
-										 </div>
-										 </p>
-									</article>
-								</div>
-							</div>
-							<br>
-							<br>
-							<h4 id='speedtouch' style='text-align:center'><b> Speed Touch - Mobile Game </b></h4>
-							<div class="row">
-								<div class="5u">
-									<article class="item">
-										<div align="left" style="margin-top:1cm">
-										<a href="FTPGames/SpeedTouch.apk" target="_blank" class="image fit"><img src="images/speedtouch.gif" alt="" /></a>
-										</div>
-									</article>
-								</div>
-								<div class="7u">
-									<article class="item">
-										<div align="left" style="margin:1cm">
-										 &#8226; Designed 2D Twitch mobile game inspired by popular indie game super hexagon on Unity using C# Scripts<br>
-										 &#8226; Created algorithm to design randomized levels for unique gameplay experience every single time<br><br>
-										 <b>Technologies: Unity, C# </b><br>
-										 Demo : <a href="https://www.youtube.com/watch?v=VHKb1HOiA5g" target="_blank" style="color:#2668AF">Speed Touch Video</a><br>
-										 GitHub: <a href="https://github.com/m4rtint/SpeedTouch" target="_blank" style="color:#2668AF">Speed Touch Source Code </a><br>
-										 APK: <a href="FTPGames/SpeedTouch.apk" target="_blank" style="color:#2668AF">Speed Touch APK (50MB) </a>
-										 <br><br>
-										 </div>
-										 </p>
-									</article>
-								</div>
-
-							</div>
-							<br>
-							<br>
-							<h4 id='bishi' style='text-align:center'><b> Bishi Bashi - Mini Games </b></h4>
-							<div class="row">
-								<div class="7u">
-									<article class="item">
-										<div align="left" style="margin:1cm">
-										 &#8226; Recreated Sony Playstation games designed by Konami using their art assets and Unity game engine<br>
-										 &#8226; Designed 2D animation for game characters, items and menus to create an engaging gaming experience <br>
-										 &#8226; Implemented C# scripts as behaviour components for gameobjects to interact with each other<br><br>
-										 <b>Technologies: Unity, C# </b><br>
-										 Demo : <a href="http://www.martintsang.com/BishiBashi.html" target="_blank" style="color:#2668AF">Bishi Bashi </a><br>
-										 GitHub: <a href="https://github.com/m4rtint/bishibashi" target="_blank" style="color:#2668AF">Bishi Bashi Source Code </a>
-										 <br><br>
-										 </div>
-										 </p>
-									</article>
-								</div>
-								<div class="5u">
-									<article class="item">
-										<div align="left" style="margin-top:1cm">
-										<a href="http://www.martintsang.com/BishiBashi.html" target="_blank" class="image fit"><img src="images/bishibashi.gif" alt="" /></a>
-										</div>
-									</article>
-								</div>
-							</div>
-							<br>
-
-							<h4 style='text-align:center'><b> Huddle - Conference Management System </b></h4>
-							<div class="row">
-								<div class="5u">
-									<article class="item">
-										<div align="left" style="margin-top:1cm">
-										<img src="images/gobin.png" alt=""  class="image fit"/>
-										</div>
-									</article>
-								</div>
-								<div class="7u">
-									<article class="item">
-										<div align="left" style="margin:1cm">
-										 &#8226; Designed conference management system with team of six utilizing Laravel framework for the backend API server, and Angular JS for the front end UI<br>
-										 &#8226; Applied Sentinel authorization and authentication package to create secure backend login, registration, and roles system<br>
-										 &#8226; Implemented backend security to prevent DDOS attacks and unauthorized API calls with API call limitations and tokenization<br><br>
-										 <b>Technologies: PHP, Angular JS, Laravel, SQL</b><br>
-										 GitHub: <a href="https://github.com/m4rtint/huddle" target="_blank" style="color:#2668AF">Huddle Source Code </a>
-										 <br><br>
-										 </div>
-										 </p>
-									</article>
-								</div>
-							</div>
-							<br>
-
-							<h4 style='text-align:center'><b> Mark Calculator </b></h4>
-							<div class="row">
-								<div class="6u">
-									<article class="item">
-										<div align="left" style="margin:1cm">
-										 &#8226; Learn Ruby on Rails by creating web application which calculates and stores users' grades with Ruby on Rails<br>
-										 &#8226; Utilized Oauth authorization framework to create a secure backend registration and login system <br>
-										 &#8226; Formulated relational database design to store user and user generated data for easy access through Rails model usage<br><br>
-										 <b>Technologies: Ruby On Rails, SQLite, Heroku</b><br>
-										 Website : <a href="http://markcalculator.herokuapp.com/" target="_blank" style="color:#2668AF">Mark Calculator</a><br>
-										 GitHub : <a href="https://github.com/m4rtint/markcalculator" target="_blank" style="color:#2668AF">Mark Calculator Source Code</a><br>
-										 </div>
-										 </p>
-									</article>
-								</div>
-								<div class="6u">
-									<article class="item">
-										<div align="left" style="margin-top:1cm">
-										<a href="http://markcalculator.herokuapp.com/" target="_blank" class="image fit"><img src="images/markcalc.png" alt="" /></a>
-										</div>
-									</article>
-								</div>
-							</div>
-							<br>
-							<h4 style='text-align:center'><b> Xbox Live Mass Messenger </b></h4>
-							<div class="row">
-								<div class="6u">
-									<article class="item">
-										<div align="left" style="margin-top:1cm">
-											<a href="http://xblmessenger.herokuapp.com/" target="_blank" class="image fit"><img src="images/cogmessenger.png" alt="" /></a>
-										</div>
-									</article>
-								</div>
-								<div class="6u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									 &#8226; Created a web based Xbox Live mass messenger, allowing users to send large amount of messages to friends or recently met Xbox Live players<br>
-									 &#8226; Implemented backend messenger, registration system and basic user interface <br>
-									 (New updated version coming soon)<br><br>
-									 <b>Technologies: PHP, HTML : Bootstrap, SQL  </b><br>
-									 Website : <a href="http://xblmessenger.herokuapp.com/" target="_blank" style="color:#2668AF">Xbox Live Mass Messenger</a><br>
-									 GitHub : <a href="https://github.com/m4rtint/xboxapi" target="_blank" style="color:#2668AF">Source Code</a><br>
-									 <br><br>
-									 </div>
-									 </p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section id="hackathon	">
-						<div class="container">
-							<h3><u>Hackathons</u></h3>
-							<br>
-							<br>
-							<h4 id='gamejam'><b>Global Game Jam Vancouver</b></h4>
-							<div class="row">
-								<div class="4u">
-									<div align="left" style="margin-top:1cm">
-									<article class="item">
-									<a style="text-align:center" href="http://martintsang.com/blacknwhite.html" target="_blank" class="image fit"><img src="images/blacknwhite.gif" alt="" />Demo : BlacknWhite - 2014</a>
-									</article>
-									<article class="item">
-									<a style="text-align:center" href="http://martintsang.com/FadeAway.html" target="_blank" class="image fit"><img src="images/fadeaway.gif" alt="" />Demo : FadeAway - 2016</a>
-									</article>
-									</div>
-								</div>
-								<div class="8u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									<p>
-									 &#8226; Collaborated with a team of four to five and developed delegation and communication skills<br>
-									 &#8226; Utilized Unity to develop side 2D platformer Web game<br>
- 									 &#8226; Implemented and attached C# scripts onto character models and sprites<br>
-									 &#8226; Created simple item and menu animation using sprite assets for more immersive gameplay<br><br>
-									 <b>Technologies: Unity, C#</b><br>
-									 GitHub : <a href="https://github.com/m4rtint/BlacknWhite" target="_blank" style="color:#2668AF">Black n White</a><br>
-									 GitHub : <a href=" https://github.com/m4rtint/FadeAway" target="_blank" style="color:#2668AF">Fade Away</a><br>
-
-									 <br><br>
-									</div>
-									</article>
-								</div>
-							</div>
-							<br>
-							<br>
-
-							<h4><b>FRP - Interactive Map App for Family Resource Programs</b></h4>
-							<div class="row">
-								<div class="8u">
-									<article class="item">
-									<div align="left" style="margin:1cm">
-									<p>
-									 &#8226; Utilized Eclipse IDE to implement interactive map with Google Maps API using Java<br>
-									 &#8226; Extracted queried data to insert Waypoint finders onto map for FRP-BC centers<br><br>
-									 <b>Technologies: Eclipse, Android, Java</b><br>
-									 GitHub : <a href="https://github.com/m4rtint/Hackathon-FRP-BC" target="_blank" style="color:#2668AF">FRP-BC</a>
-									 <br><br>
-									</div>
-									</article>
-								</div>
-								<div class="4u">
-									<br>
-									<article class="item">
-									<a href="https://github.com/m4rtint/Hackathon-FRP-BC" target="_blank" class="image fit"><img src="images/frpbc.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-						<div class="row">
-							<div class="6u">
-							<article class="item">
-								<a class="image fit"><img src="images/profile_photo.jpg" alt="" /></a>
-							</article>
-							</div>
-							<div class="6u">
-							<article class="item">
-								<p>Hi there<br>
-								My name is Martin Tsang and I'm currently a software developer at InkPad Studios developing mobile games.
-								I have been programming since my first year at UBC and have graduated with a major in Computer Science since December 2016.
-								My dream is to enter the gaming industry to some day help develop a triple A title on any platform
-								<br><br>
-								My interests include gaming, Board games and building my very own custom PC.<br><br>
-								Current Build:<br>
-								GeForce GTX 980<br>
-								i5-3570k<br>
-								8.00GB RAM <br>
-								Gigabyte Z77 Series<br><br>
-
-								</p>
-							</article>
-							</div>
-						</div>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-							<p>I'm always near my Smart Phone, Laptop or Desktop.<br> I will reply as soon as possible</p>
-							<div class="row 50%">
-							<div class="6u">
-							<p>Phone Number:<br> +1-778-990-0852</p>
-							<p>Xbox Live GT:<br>COG Integrity</p>
-							<p>Battle.Net:<br>Lofike#1124</p>
-							</div>
-							<div class="6u">
-							<p>Skype:<br> m4rtin.t</p>
-							<p>Email Address:<br> m4rtin.t@gmail.com</p>
-							</div>
-							</div>
-
-
-						</div>
-					</section>
-
-				</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Martin Pak Hei Tsang. All rights reserved.</li><li>Design: HTML5 UP</li>
-					</ul>
-
-			</div>
-	</body>
 </html>
