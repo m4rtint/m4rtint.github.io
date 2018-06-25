@@ -419,8 +419,10 @@
             </div>
             <div class="card-body">
               <h5 class="card-title">Mini Golf Generator</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">A mini golf path generator that randomly generates a path for you. You are able to set the percentages of staight paths, turns and ramps within the Unity inspector.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#minigolf">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -429,11 +431,25 @@
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="images/StayAwake/Android_0.jpg" alt="Card image cap">
+            <div id="carouselExampleSlidesOnly" data-interval="1500" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-5000 card-img-top" src="images/StayAwake/Android_0.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/StayAwake/Android_1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-5000 card-img-top" src="images/StayAwake/Android_2.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Platformation</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Stay Awake</h5>
+              <p class="card-text">A mobile horror game inspired by "Five Nights at Freddys" where you try to survive the night using various tools to prevent the monsters from attacking you.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stayawake">
+                Details
+              </button>
             </div>
           </div>
         </div>
@@ -608,7 +624,7 @@
   </div>
   <!----------------->
 
-  <!-- Modal / Knots -->
+  <!-- Modal / Platformation -->
   <div class="modal fade" id="platformation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -625,10 +641,85 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12">
-
+                <p>This was my 3rd global game jam and it was an amzing experience filled with new friends and new knowledge.</p>
+                <p>I decided to go with developers whom I have never worked with and don't know very well, so I ended up teaming up with few of the executives of AGDA (AMS Game Development Association)</p>
+                <p>Turned out they were co-ops working at East Side Games and I learnt quite a lot from them.</p>
+                <p>We were able to complete the MVP of the game which is a local multiplayer couch co-op platfomer inspired by Ultimate Chicken Horse</p>
+                <p>One player would control the jumper who tries to jump to the red flag, and the rest of the players would have a chance to shoot at the jumper</p>
+                <p>If the jumper gets shot, the body turns into an obstacle that stop or helps the jumper along the way. Everyone then takes turns being the jumper</p>
+                <p>We were able to present it at the game jam and I couldn't be more proud with my team.</p>
               </div>
             </div>
-            <a target="_blank" href="https://itunes.apple.com/us/app/lighthouse-knots/id1277151577?ls=1&mt=8" class="btn btn-primary">iOS</a>
+            <a target="_blank" href="https://globalgamejam.org/2018/games/platformation" class="btn btn-primary">GameJam</a>
+            <a target="_blank" href="https://github.com/m4rtint/platformation" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+
+  <!-- Modal / MiniGolf -->
+  <div class="modal fade" id="minigolf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mini Golf Generator - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ee1O3gWRsQM" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I was looking through the assets that http://kenney.nl has released for free use and found a package of mini golf assets, and decided to start up a short little project.</p>
+                <p>I've always wanted to try and create a randomizer that creates paths and this is what I've come up with so far.</p>
+                <p>The current issue is the lack of an end goal to this game, as there are hundreds of mini golf games out there and I don't want to release a generic mini golf game</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://github.com/m4rtint/MiniGolfPathGenerator" class="btn btn-primary">Github</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------->
+
+  <!-- Modal / StayAwake -->
+  <div class="modal fade" id="stayawake" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Stay Awake - Unity - 2018</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/E3Uu3fbve2U" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <p>I joined AGDA (AMS Game Development Association) September 2017 looking to meet other potential developers to make games with.</p>
+                <p>I talked my way into a team of 8 and slowly but surely became the software and project lead of this game. Seeing how everyone has their own work, assignments and other priorities, I was not expecting all 8 members to still be us by the end of the year, let alone end of the term</p>
+                <p>So I divided up the work in a way that is modular and can easily be passed onto someone else which means lots of decoupled scripts and frameworks.</p>
+                <p>At the end we had succesfully presented the MVP of our project to a panel of game industry experts an voted as 3rd place out of 10 games made throughout the year</p>
+              </div>
+              <a target="_blank" href="builds/VRHospital.apk" class="btn btn-primary">Android</a>
+            </div>
+            <a target="_blank" href="https://github.com/m4rtint/VR-hospital-2017" class="btn btn-primary">Github</a>
           </div>
         </div>
         <div class="modal-footer">
